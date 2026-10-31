@@ -23,6 +23,7 @@ jobs:
       - name: Step 3 - I am falling
         run: |
           echo "Running becasue the previous step has succeeded"
+          exit 1
 
       - name: Step 4 - I will never execute
         run: |
